@@ -14,7 +14,7 @@
 <form action="" method="POST">
   {% csrf_token %}
 
-    <fieldset class="module aligned">
+    <fieldset class="grp-module aligned">
       {% for field in form %}
         <div class="form-row">
           {{ field.errors }}
